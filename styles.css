@@ -25,19 +25,22 @@ h1 {
 
 /* Each grid square */
 .grid-item {
-  background-color: #037258; /* muted teal-green */
+  background-color: #567c73;
   border-radius: 10px;
   width: 100%;
   max-width: 300px;
   aspect-ratio: 1 / 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;       /* stack text vertically */
+  align-items: center;          /* center horizontally */
+  justify-content: flex-start;  /* move content to the top */
+  padding-top: 20px;            /* add space from the top */
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
   color: #f5f3ef;
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
+
 
 
